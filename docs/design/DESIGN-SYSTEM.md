@@ -1,4 +1,4 @@
-# Cuter 设计系统 v1（草案，等你确认）
+# Cuter 设计系统 v1
 
 配 4 张高保真稿：`docs/design/mockups/{tokens,settings,ocr-panel,overlay-toolbar}.svg` / `.png`。
 气质：**现代深色工具风**（克制、单一强调色、信息分层）。
@@ -6,7 +6,7 @@
 ## 0. 这套东西怎么用
 
 * **导入 Figma**：Figma 原生支持导入 **SVG**。把 `mockups/*.svg` 直接拖进画布，就是可编辑的矢量图层
-  （形状、文字、颜色都能改）。它不是 `.fig` 文件，也没有组件/auto-layout 语义——这点我不含糊。
+  （形状、文字、颜色都能改）。它不是 `.fig` 文件，也没有组件与 auto-layout 语义。
 * **可复现**：所有稿子由 `tools/design/make_mockups.py` 生成（一份几何 → SVG + PNG 两个渲染器），
   改个令牌重跑一次就全量更新，不会出现"稿子和实际不一致"。
 * **尺寸是 1:1 的**：设置窗口 980×660、OCR 面板 980×620，正是程序里视口的客户区大小
