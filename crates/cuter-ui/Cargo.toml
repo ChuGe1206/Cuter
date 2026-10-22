@@ -1,0 +1,18 @@
+[package]
+name = "cuter-ui"
+description = "Cuter 界面层：冻结遮罩、框选、标注画布、贴图窗口"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+cuter-core.workspace = true
+egui.workspace = true
+eframe.workspace = true
+image.workspace = true
+log.workspace = true
+
+# 导出时的 CPU 栅格化：文字标注需要真正把字形画进像素里，
+# 而 egui 只能画到 GPU 上，所以单独用 ab_glyph（纯 Rust，无外部依赖）。
+ab_glyph = "0.2"

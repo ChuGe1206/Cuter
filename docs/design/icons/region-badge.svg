@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<defs>
+<linearGradient id="badge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5C9BFF"/><stop offset="1" stop-color="#2F63D8"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="256" height="256" rx="56" fill="url(#badge)"/>
+<rect x="60" y="60" width="136" height="136" rx="34" fill="none" stroke="#FFFFFF" stroke-width="13"/>
+<rect x="47.5" y="47.5" width="25" height="25" rx="8" fill="#FFFFFF"/>
+<rect x="47.5" y="183.5" width="25" height="25" rx="8" fill="#FFFFFF"/>
+<rect x="183.5" y="47.5" width="25" height="25" rx="8" fill="#FFFFFF"/>
+<rect x="183.5" y="183.5" width="25" height="25" rx="8" fill="#FFFFFF"/>
+</svg>

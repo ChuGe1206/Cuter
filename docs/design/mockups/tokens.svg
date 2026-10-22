@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+<rect width="980" height="620" fill="#17181C"/>
+<text x="32" y="46" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="24" fill="#E8EAF0" text-anchor="start">Cuter 设计令牌</text>
+<text x="32" y="70" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#A8AEBD" text-anchor="start">现代深色工具风 · 单一强调色 · 4px 网格 · 层次靠字号与颜色（egui 只有一份字体）</text>
+<text x="32" y="116" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15" fill="#E8EAF0" text-anchor="start">色板</text>
+<rect x="32" y="132" width="72" height="40" rx="8" fill="#17181C" stroke="#2C2F38" stroke-width="1"/>
+<text x="32" y="190" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">bg/base</text>
+<text x="32" y="205" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#17181C</text>
+<rect x="120" y="132" width="72" height="40" rx="8" fill="#131418" stroke="#2C2F38" stroke-width="1"/>
+<text x="120" y="190" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">bg/sunken</text>
+<text x="120" y="205" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#131418</text>
+<rect x="208" y="132" width="72" height="40" rx="8" fill="#1F2127" stroke="#2C2F38" stroke-width="1"/>
+<text x="208" y="190" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">bg/raised</text>
+<text x="208" y="205" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#1F2127</text>
+<rect x="296" y="132" width="72" height="40" rx="8" fill="#262931" stroke="#2C2F38" stroke-width="1"/>
+<text x="296" y="190" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">bg/overlay</text>
+<text x="296" y="205" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#262931</text>
+<rect x="384" y="132" width="72" height="40" rx="8" fill="#2C2F38" stroke="#2C2F38" stroke-width="1"/>
+<text x="384" y="190" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">border/subtle</text>
+<text x="384" y="205" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#2C2F38</text>
+<rect x="32" y="224" width="72" height="40" rx="8" fill="#3A3F4B" stroke="#2C2F38" stroke-width="1"/>
+<text x="32" y="282" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">border/strong</text>
+<text x="32" y="297" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#3A3F4B</text>
+<rect x="120" y="224" width="72" height="40" rx="8" fill="#E8EAF0" stroke="#2C2F38" stroke-width="1"/>
+<text x="120" y="282" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">text/primary</text>
+<text x="120" y="297" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#E8EAF0</text>
+<rect x="208" y="224" width="72" height="40" rx="8" fill="#A8AEBD" stroke="#2C2F38" stroke-width="1"/>
+<text x="208" y="282" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">text/secondary</text>
+<text x="208" y="297" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#A8AEBD</text>
+<rect x="296" y="224" width="72" height="40" rx="8" fill="#6F7686" stroke="#2C2F38" stroke-width="1"/>
+<text x="296" y="282" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">text/tertiary</text>
+<text x="296" y="297" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#6F7686</text>
+<rect x="32" y="316" width="72" height="40" rx="8" fill="#4C8DFF" stroke="#2C2F38" stroke-width="1"/>
+<text x="32" y="374" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">accent</text>
+<text x="32" y="389" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#4C8DFF</text>
+<rect x="120" y="316" width="72" height="40" rx="8" fill="#6BA1FF" stroke="#2C2F38" stroke-width="1"/>
+<text x="120" y="374" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">accent/hover</text>
+<text x="120" y="389" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#6BA1FF</text>
+<rect x="208" y="316" width="72" height="40" rx="8" fill="#22304B" stroke="#2C2F38" stroke-width="1"/>
+<text x="208" y="374" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">accent/subtle</text>
+<text x="208" y="389" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#22304B</text>
+<rect x="296" y="316" width="72" height="40" rx="8" fill="#3DD68C" stroke="#2C2F38" stroke-width="1"/>
+<text x="296" y="374" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">success</text>
+<text x="296" y="389" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#3DD68C</text>
+<rect x="384" y="316" width="72" height="40" rx="8" fill="#F5A524" stroke="#2C2F38" stroke-width="1"/>
+<text x="384" y="374" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">warning</text>
+<text x="384" y="389" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#F5A524</text>
+<rect x="472" y="316" width="72" height="40" rx="8" fill="#F2555A" stroke="#2C2F38" stroke-width="1"/>
+<text x="472" y="374" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#E8EAF0" text-anchor="start">danger</text>
+<text x="472" y="389" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#6F7686" text-anchor="start">#F2555A</text>
+<text x="32" y="448" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15" fill="#E8EAF0" text-anchor="start">字阶</text>
+<text x="32" y="480" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="24" fill="#E8EAF0" text-anchor="start">截图 Cuter</text>
+<text x="178" y="480" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">title-1 / 24</text>
+<text x="32" y="502" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="20" fill="#E8EAF0" text-anchor="start">截图 Cuter</text>
+<text x="178" y="502" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">title-2 / 20</text>
+<text x="32" y="524" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15" fill="#E8EAF0" text-anchor="start">截图 Cuter</text>
+<text x="178" y="524" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">title-3 / 15</text>
+<text x="32" y="546" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="13" fill="#E8EAF0" text-anchor="start">截图 Cuter</text>
+<text x="178" y="546" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">body / 13</text>
+<text x="32" y="568" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#A8AEBD" text-anchor="start">截图 Cuter</text>
+<text x="178" y="568" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">label / 12</text>
+<text x="32" y="590" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">截图 Cuter</text>
+<text x="178" y="590" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">caption / 11</text>
+<text x="420" y="448" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15" fill="#E8EAF0" text-anchor="start">间距 / 圆角 / 状态</text>
+<rect x="420" y="472" width="8" height="10" rx="2" fill="#4C8DFF"/>
+<text x="438" y="480" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">space-1 = 4</text>
+<rect x="420" y="494" width="16" height="10" rx="2" fill="#4C8DFF"/>
+<text x="446" y="502" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">space-2 = 8</text>
+<rect x="420" y="516" width="24" height="10" rx="2" fill="#4C8DFF"/>
+<text x="454" y="524" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">space-3 = 12</text>
+<rect x="420" y="538" width="32" height="10" rx="2" fill="#4C8DFF"/>
+<text x="462" y="546" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">space-4 = 16</text>
+<rect x="420" y="560" width="48" height="10" rx="2" fill="#4C8DFF"/>
+<text x="478" y="568" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">space-5 = 24</text>
+<rect x="420" y="582" width="64" height="10" rx="2" fill="#4C8DFF"/>
+<text x="494" y="590" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">space-6 = 32</text>
+<text x="660" y="448" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15" fill="#E8EAF0" text-anchor="start">控件状态（按钮）</text>
+<rect x="660" y="470" width="100" height="24" rx="8" fill="#1F2127" stroke="#2C2F38" stroke-width="1"/>
+<text x="710" y="486" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#E8EAF0" text-anchor="middle">复制</text>
+<text x="770" y="487" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">normal</text>
+<rect x="660" y="498" width="100" height="24" rx="8" fill="#2A2D36" stroke="#3A3F4B" stroke-width="1"/>
+<text x="710" y="514" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#E8EAF0" text-anchor="middle">复制</text>
+<text x="770" y="515" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">hover</text>
+<rect x="660" y="526" width="100" height="24" rx="8" fill="#333743" stroke="#3A3F4B" stroke-width="1"/>
+<text x="710" y="542" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#E8EAF0" text-anchor="middle">复制</text>
+<text x="770" y="543" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">pressed</text>
+<rect x="660" y="554" width="100" height="24" rx="8" fill="#1F2127" stroke="#4C8DFF" stroke-width="1.4"/>
+<text x="710" y="570" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#E8EAF0" text-anchor="middle">复制</text>
+<text x="770" y="571" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">focus</text>
+<rect x="660" y="582" width="100" height="24" rx="8" fill="#1F2127" stroke="#2C2F38" stroke-width="1"/>
+<text x="710" y="598" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#6F7686" text-anchor="middle">复制</text>
+<text x="770" y="599" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">disabled</text>
+<text x="32" y="614" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">圆角：输入框 6 · 按钮 8 · 卡片 10 · 窗口与弹层 14　　阴影：弹层 0 8 24 rgba(0,0,0,.45)</text>
+</svg>

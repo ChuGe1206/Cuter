@@ -1,0 +1,142 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/cuter-core",
+    "crates/cuter-ui",
+    "crates/cuter-app",
+]
+
+[workspace.package]
+version = "0.1.70"
+edition = "2024"
+rust-version = "1.88"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/ChuGe/Cuter"
+description = "Cuter —— 纯 Rust 的高性能截图 / 标注 / OCR 工具"
+authors = ["Cuter contributors"]
+
+[workspace.dependencies]
+cuter-core = { path = "crates/cuter-core" }
+cuter-ui = { path = "crates/cuter-ui" }
+
+# --- 基础 ---
+serde = { version = "1", features = ["derive"] }
+toml = "1"
+thiserror = "2"
+log = "0.4"
+env_logger = "0.11"
+dirs = "7"
+
+# --- 图像 ---
+image = { version = "0.25", default-features = false, features = [
+    "png",
+    "jpeg",
+    "bmp",
+    "webp",
+] }
+# --- GUI ---
+eframe = { version = "0.36", default-features = false, features = [
+    "glow",
+    "default_fonts",
+    "wayland",
+    "x11",
+] }
+egui = "0.36"
+# eframe 的 `Frame` 实现了 `HasWindowHandle`。我们要拿根窗口句柄，才能把 UI 线程从
+# 「隐藏窗口重绘节流」里叫醒（见 crates/cuter-app/src/desktop.rs 的 `UiWake`）。
+raw-window-handle = "0.6"
+
+# --- 桌面集成 ---
+arboard = { version = "3.6", default-features = false, features = ["image-data"] }
+global-hotkey = "0.8"
+tray-icon = "0.24"
+
+# --- Windows 平台 ---
+[workspace.dependencies.windows]
+version = "0.62"
+features = [
+    # --- Win32 ---
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_Graphics_Dwm",
+    "Win32_System_LibraryLoader",
+    "Win32_System_Console",
+    "Win32_System_Com",
+    # 单实例守卫要用 CreateMutexW / CreateEventW，它们的签名里带
+    # SECURITY_ATTRIBUTES（可空），所以 windows crate 把它们gate 在 Win32_Security 上
+    "Win32_Security",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_SystemInformation",
+    "Win32_System_Threading",
+    # 托盘闲置后收紧工作集（EmptyWorkingSet）与读回工作集大小（GetProcessMemoryInfo）
+    "Win32_System_ProcessStatus",
+    "Win32_UI_HiDpi",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_UI_Shell",
+    "Win32_UI_Shell_Common",
+    "Win32_UI_WindowsAndMessaging",
+    # 开机自启：HKCU\...\Run 下的一个 REG_SZ
+    "Win32_System_Registry",
+    # --- DXGI 桌面复制捕获后端（`capture/windows_dxgi.rs`） ---
+    "Win32_Graphics_Direct3D",
+    "Win32_Graphics_Direct3D11",
+    "Win32_Graphics_Dxgi",
+    "Win32_Graphics_Dxgi_Common",
+    # --- 贴图拖出到别的程序（OLE 拖放：`app/desktop.rs::drag_files`） ---
+    # `DoDragDrop` / `IDropSource` / `OleInitialize` 在 Win32_System_Ole 下；
+    # `IDataObject` 与 `SHCreateDataObject` 分别来自 Com 与 UI_Shell（已在上面）。
+    "Win32_System_Ole",
+    # 控件级吸附：IUIAutomation::ElementFromPoint（Win32_UI_Accessibility）
+    "Win32_UI_Accessibility",
+    # 跟随系统界面语言：GetUserDefaultLocaleName（Win32_Globalization）
+    "Win32_Globalization",
+    # IDropSource 的 _Impl trait 与 MK_LBUTTON 都 gate 在这个 feature 上
+    "Win32_System_SystemServices",
+    # --- WinRT：OCR 走 Windows.Media.Ocr（系统自带，零下载零打包） ---
+    "Foundation",
+    "Globalization",
+    "Graphics",
+    "Graphics_Imaging",
+    "Media",
+    "Media_Ocr",
+    "Security",
+    "Security_Cryptography",
+    "Storage",
+    "Storage_Streams",
+]
+
+# `#[implement(IDropSource)]` 宏生成的代码引用 `::windows_core::`，
+# 所以实现 COM 接口的 crate 必须能直接看到这个名字。
+[workspace.dependencies.windows-core]
+version = "0.62"
+
+# WinRT 的异步类型在 0.62 起已拆成独立 crate，版本必须与 windows 对齐
+[workspace.dependencies.windows-future]
+version = "0.3"
+[workspace.dependencies.windows-collections]
+version = "0.3"
+
+# ============================================================================
+# 构建配置：兼顾「高性能」与「小体积」
+# ============================================================================
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = "symbols"
+incremental = false
+overflow-checks = false
+
+# 极致体积优先（代价：热点算力下降），发布安装包时可用 `--profile release-small`
+[profile.release-small]
+inherits = "release"
+opt-level = "s"
+panic = "abort"
+
+# 依赖永远按最高优化编译，保证 egui / image 等第三方代码不拖慢速度
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.dev]
+opt-level = 1

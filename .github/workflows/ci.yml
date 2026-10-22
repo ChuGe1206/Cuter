@@ -1,0 +1,62 @@
+name: ci
+
+# What runs here and what cannot:
+#
+#   * clippy + unit tests + the i18n table check + the release build: all headless, all here.
+#   * the end-to-end probes in tools/probe/: **NOT here on purpose**. They synthesise real
+#     keyboard/mouse input, create real top-level windows and read the app's log, so they need
+#     an interactive desktop session. A GitHub-hosted runner has no interactive session, and a
+#     probe that silently skips is worse than no probe at all.
+#     On a developer machine the same checks plus the probes are one command:
+#         powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ci\check.ps1 -WithProbes
+#
+# Windows only: the whole product is a Windows screenshot tool (single target
+# x86_64-pc-windows-msvc, Win32/GDI/DXGI/WinRT in cuter-core).
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-pc-windows-msvc
+          components: clippy
+
+      - name: Cache cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+
+      - name: clippy (-D warnings)
+        run: cargo clippy --workspace --all-targets -- -D warnings
+
+      - name: unit tests
+        run: cargo test --workspace
+
+      - name: i18n table has no missing translations
+        shell: pwsh
+        run: |
+          # en_table.py also reports UNUSED entries (a known false positive: theme names are
+          # resolved through a runtime string), so only MISSING is fatal.
+          $out = python tools/i18n/en_table.py 2>&1
+          $out | Select-String 'MISSING|UNUSED' | ForEach-Object { $_.Line }
+          if ($out | Select-String 'MISSING') { throw 'missing translations' }
+
+      - name: release build
+        run: cargo build --release

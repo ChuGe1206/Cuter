@@ -1,0 +1,39 @@
+# Rust
+/target
+**/*.rs.bk
+
+# 构建产物
+/dist
+/build
+*.pdb
+*.ilk
+*.exp
+
+# 本地配置与调试产物
+/.cuter-local
+/screenshots
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# 编辑工具原子替换失败时留下的临时文件（Windows 上偶发）
+*~RF*.TMP
+
+# 探针的配置备份：正常情况下写在 %TEMP%，但若进程里 TEMP 是空的，`Join-Path` 会给出
+# 相对路径，备份就落到仓库根目录（真发生过一次，还被提交了）。探针现在自己会自检绝对
+# 路径，这里再兜一层，保证这类文件永远进不了仓库。
+/cuter-*config*.toml
+/cuter-*backup*.txt
+
+# 探针早先版本写错目录留下的残留（当前版本写到 $env:TEMP）
+cuter-autostart-config-*.toml
+cuter-*.out
+
+# Python 缓存
+__pycache__/
+*.pyc

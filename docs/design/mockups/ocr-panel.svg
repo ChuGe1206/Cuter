@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+<rect width="980" height="620" fill="#17181C"/>
+<rect x="0" y="0" width="980" height="52" fill="#1F2127"/>
+<line x1="0" y1="52" x2="980" y2="52" stroke="#2C2F38" stroke-width="1"/>
+<text x="24" y="32" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15" fill="#E8EAF0" text-anchor="start">识别结果</text>
+<rect x="108" y="18" width="84.2" height="19" rx="6" fill="#1F2127"/>
+<text x="116" y="30" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#A8AEBD" text-anchor="start">zh-Hans-CN</text>
+<rect x="198.2" y="18" width="36.46" height="19" rx="6" fill="#1F2127"/>
+<text x="206.2" y="30" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#A8AEBD" text-anchor="start">2 行</text>
+<rect x="240.66" y="18" width="50.1" height="19" rx="6" fill="#1F2127"/>
+<text x="248.66" y="30" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#A8AEBD" text-anchor="start">55 ms</text>
+<rect x="700" y="12" width="256" height="30" rx="8" fill="#131418" stroke="#2C2F38" stroke-width="1"/>
+<rect x="702" y="14" width="126" height="26" rx="6" fill="#22304B"/>
+<text x="765" y="32" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#4C8DFF" text-anchor="middle">编辑全文</text>
+<text x="891" y="32" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#A8AEBD" text-anchor="middle">逐行对照</text>
+<rect x="24" y="76" width="560" height="452" rx="10" fill="#131418" stroke="#2C2F38" stroke-width="1"/>
+<rect x="40" y="92" width="528" height="420" rx="6" fill="#0F1013"/>
+<rect x="60" y="140" width="300" height="34" rx="4" fill="none" stroke="#4C8DFF" stroke-width="1.6"/>
+<text x="60" y="132" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#4C8DFF" text-anchor="start">1</text>
+<rect x="60" y="196" width="210" height="34" rx="4" fill="none" stroke="#4C8DFF" stroke-width="1.6"/>
+<text x="60" y="188" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#4C8DFF" text-anchor="start">2</text>
+<text x="60" y="164" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15" fill="#D8DCE6" text-anchor="start">ter OCR 缩 導琛?second line abcdef</text>
+<text x="40" y="500" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">这里显示截图本身；蓝框是识别出的文本块，编号与右侧行号一一对应（示意）。</text>
+<text x="60" y="220" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15" fill="#D8DCE6" text-anchor="start">笙琛?12345</text>
+<text x="608" y="96" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#6F7686" text-anchor="start">识别文本</text>
+<rect x="604" y="108" width="352" height="34" rx="8" fill="#22304B"/>
+<text x="616" y="130" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#4C8DFF" text-anchor="start">1</text>
+<text x="636" y="130" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="13" fill="#E8EAF0" text-anchor="start">ter OCR 缩 導琛?second line abcdef</text>
+<rect x="920" y="116" width="24" height="18" rx="6" fill="#262931" stroke="#2C2F38" stroke-width="1"/>
+<text x="932" y="129" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="9" fill="#A8AEBD" text-anchor="middle">复制</text>
+<rect x="604" y="148" width="352" height="34" rx="8" fill="#1F2127"/>
+<text x="616" y="170" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">2</text>
+<text x="636" y="170" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="13" fill="#E8EAF0" text-anchor="start">笙琛?12345</text>
+<rect x="604" y="200" width="352" height="48" rx="10" fill="#1F2127" stroke="#2C2F38" stroke-width="1"/>
+<text x="620" y="224" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">按 Ctrl+C 复制选中行 · H 悬停高亮对应框</text>
+<text x="620" y="240" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">识别结果可编辑校对，改动会写回历史</text>
+<line x1="0" y1="556" x2="980" y2="556" stroke="#2C2F38" stroke-width="1"/>
+<rect x="0" y="556" width="980" height="64" fill="#1F2127"/>
+<text x="24" y="592" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">识别 2 行，用时 55 ms</text>
+<rect x="760" y="572" width="92" height="32" rx="8" fill="#1F2127" stroke="#3A3F4B" stroke-width="1"/>
+<text x="806" y="593" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#E8EAF0" text-anchor="middle">重新识别</text>
+<rect x="864" y="572" width="92" height="32" rx="8" fill="#4C8DFF"/>
+<text x="910" y="593" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">复制全部</text>
+</svg>

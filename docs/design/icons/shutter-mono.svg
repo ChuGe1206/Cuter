@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<defs>
+<linearGradient id="badge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5C9BFF"/><stop offset="1" stop-color="#2F63D8"/></linearGradient>
+</defs>
+<circle cx="128" cy="128" r="66" fill="none" stroke="#FFFFFF" stroke-width="18"/>
+<circle cx="128" cy="128" r="26" fill="#FFFFFF"/>
+<line x1="128" y1="128" x2="128" y2="128" stroke="#FFFFFF" stroke-width="0" stroke-linecap="round"/>
+<line x1="181.74" y1="181.74" x2="188.811" y2="188.811" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
+<line x1="128" y1="128" x2="128" y2="128" stroke="#FFFFFF" stroke-width="0" stroke-linecap="round"/>
+<line x1="74.2599" y1="181.74" x2="67.1888" y2="188.811" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
+<line x1="128" y1="128" x2="128" y2="128" stroke="#FFFFFF" stroke-width="0" stroke-linecap="round"/>
+<line x1="74.2599" y1="74.2599" x2="67.1888" y2="67.1888" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
+<line x1="128" y1="128" x2="128" y2="128" stroke="#FFFFFF" stroke-width="0" stroke-linecap="round"/>
+<line x1="181.74" y1="74.2599" x2="188.811" y2="67.1888" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
+</svg>

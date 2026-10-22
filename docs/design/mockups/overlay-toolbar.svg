@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300">
+<rect width="700" height="300" fill="#17181C"/>
+<rect x="24" y="20" width="200" height="30" rx="8" fill="#262931" stroke="#2C2F38" stroke-width="1"/>
+<text x="36" y="40" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#E8EAF0" text-anchor="start">840 × 600</text>
+<text x="124" y="40" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">(130, 170)</text>
+<rect x="24" y="72" width="573" height="48" rx="12" fill="#262931" stroke="#2C2F38" stroke-width="1"/>
+<rect x="36" y="79" width="34" height="34" rx="8" fill="#22304B"/>
+<rect x="48.5" y="91.5" width="9" height="7.02" rx="2" fill="none" stroke="#4C8DFF" stroke-width="1.6"/>
+<circle cx="87" cy="96" r="4.5" fill="none" stroke="#A8AEBD" stroke-width="1.6"/>
+<line x1="116" y1="101" x2="126" y2="91" stroke="#A8AEBD" stroke-width="1.6"/>
+<line x1="126" y1="91" x2="126" y2="95" stroke="#A8AEBD" stroke-width="1.6"/>
+<line x1="126" y1="91" x2="122" y2="91" stroke="#A8AEBD" stroke-width="1.6"/>
+<line x1="150" y1="101" x2="158" y2="93" stroke="#A8AEBD" stroke-width="1.8"/>
+<line x1="158" y1="93" x2="160" y2="91" stroke="#A8AEBD" stroke-width="1.8"/>
+<rect x="183" y="94" width="12" height="6" rx="2" fill="none" stroke="#A8AEBD" stroke-width="1.8"/>
+<line x1="183" y1="101" x2="195" y2="101" stroke="#A8AEBD" stroke-width="1.8"/>
+<rect x="218" y="91" width="4" height="4" rx="1" fill="#A8AEBD"/>
+<rect x="218" y="96" width="4" height="4" rx="1" fill="#A8AEBD"/>
+<rect x="223" y="91" width="4" height="4" rx="1" fill="#A8AEBD"/>
+<rect x="223" y="96" width="4" height="4" rx="1" fill="#A8AEBD"/>
+<circle cx="253.5" cy="92.5" r="1.8" fill="#A8AEBD"/>
+<circle cx="257" cy="96" r="1.8" fill="#A8AEBD"/>
+<circle cx="260.5" cy="99.5" r="1.8" fill="#A8AEBD"/>
+<circle cx="253.5" cy="99.5" r="1.8" fill="#A8AEBD"/>
+<circle cx="260.5" cy="92.5" r="1.8" fill="#A8AEBD"/>
+<line x1="286" y1="92" x2="296" y2="92" stroke="#A8AEBD" stroke-width="1.8"/>
+<line x1="291" y1="92" x2="291" y2="101" stroke="#A8AEBD" stroke-width="1.8"/>
+<circle cx="325" cy="96" r="6" fill="none" stroke="#A8AEBD" stroke-width="1.6"/>
+<text x="325" y="100" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="9" fill="#A8AEBD" text-anchor="middle">1</text>
+<line x1="348.5" y1="86" x2="348.5" y2="106" stroke="#3A3F4B" stroke-width="1"/>
+<rect x="355" y="79" width="34" height="34" rx="8" fill="#1F2127"/>
+<rect x="363" y="99" width="18" height="4" rx="2" fill="#A8AEBD"/>
+<rect x="363" y="91" width="18" height="2" rx="1" fill="#6F7686"/>
+<rect x="363" y="105" width="18" height="6" rx="3" fill="#6F7686"/>
+<rect x="389" y="79" width="34" height="34" rx="8" fill="#1F2127"/>
+<rect x="397" y="87" width="18" height="18" rx="4" fill="none" stroke="#A8AEBD" stroke-width="1.6"/>
+<rect x="401" y="91" width="10" height="10" rx="2" fill="#F2555A"/>
+<rect x="423" y="79" width="34" height="34" rx="8" fill="#1F2127"/>
+<circle cx="440" cy="90" r="1.6" fill="#A8AEBD"/>
+<circle cx="440" cy="96" r="1.6" fill="#A8AEBD"/>
+<circle cx="440" cy="102" r="1.6" fill="#A8AEBD"/>
+<line x1="463.5" y1="86" x2="463.5" y2="106" stroke="#3A3F4B" stroke-width="1"/>
+<rect x="470" y="79" width="34" height="34" rx="8" fill="#1F2127"/>
+<line x1="480" y1="98" x2="494" y2="98" stroke="#6F7686" stroke-width="1.8"/>
+<line x1="480" y1="98" x2="485" y2="93" stroke="#6F7686" stroke-width="1.8"/>
+<line x1="480" y1="98" x2="485" y2="103" stroke="#6F7686" stroke-width="1.8"/>
+<rect x="504" y="79" width="34" height="34" rx="8" fill="#1F2127"/>
+<line x1="514" y1="98" x2="528" y2="98" stroke="#A8AEBD" stroke-width="1.8"/>
+<line x1="528" y1="98" x2="523" y2="93" stroke="#A8AEBD" stroke-width="1.8"/>
+<line x1="528" y1="98" x2="523" y2="103" stroke="#A8AEBD" stroke-width="1.8"/>
+<line x1="544.5" y1="86" x2="544.5" y2="106" stroke="#3A3F4B" stroke-width="1"/>
+<rect x="551" y="79" width="34" height="34" rx="8" fill="#4C8DFF"/>
+<line x1="562" y1="89" x2="566.8" y2="93.5" stroke="#FFFFFF" stroke-width="2.2"/>
+<line x1="566.8" y1="93.5" x2="574" y2="84.8" stroke="#FFFFFF" stroke-width="2.2"/>
+<text x="24" y="152" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">工具条 1:1（高 48，按钮 34，圆角 12，实际宽 573）——选中工具用 accent/subtle 底 + accent 图标。</text>
+<text x="24" y="170" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">分组顺序：9 种标注工具 ｜ 线宽·颜色·更多 ｜ 撤销·重做 ｜ 完成（强调色，唯一的实心按钮）。</text>
+<text x="24" y="188" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">数字键 1-9 切工具、Enter 完成、Esc 取消——快捷键写进 tooltip，不占界面。</text>
+<rect x="24" y="212" width="340" height="64" rx="12" fill="#262931" stroke="#2C2F38" stroke-width="1"/>
+<text x="38" y="236" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">线宽</text>
+<rect x="76" y="226" width="130" height="6" rx="3" fill="#3A3F4B"/>
+<rect x="76" y="226" width="74" height="6" rx="3" fill="#4C8DFF"/>
+<circle cx="150" cy="229" r="7" fill="#FFFFFF"/>
+<text x="216" y="236" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#E8EAF0" text-anchor="start">3 px</text>
+<line x1="260" y1="224" x2="260" y2="256" stroke="#2C2F38" stroke-width="1"/>
+<rect x="274" y="226" width="24" height="2" rx="4" fill="#3A3F4B"/>
+<rect x="274" y="237" width="24" height="5" rx="4" fill="#4C8DFF"/>
+<rect x="274" y="248" width="24" height="9" rx="4" fill="#3A3F4B"/>
+<text x="312" y="236" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#6F7686" text-anchor="start">预设</text>
+</svg>
