@@ -2932,7 +2932,7 @@ powershell ... -File .\tools\ci\check.ps1 -WithProbes      # 再跑一遍桌面�
 | 步骤 | 为什么它是门禁 |
 |---|---|
 | `cargo clippy --workspace --all-targets -- -D warnings` | 这个项目一直零警告，所以 `-D warnings` 就是标准 |
-| `cargo test --workspace` | 287 个单测，全部无头，CI 也能跑 |
+| `cargo test --workspace` | 348 个单测，全部无头，CI 也能跑 |
 | i18n 表完整性 | 有缺失译文就拦下（`en_table.py` 还会报 UNUSED，那是已知误报：主题名走运行时字符串，所以只把 MISSING 当致命） |
 | `cargo build --release` | 真正会被打包的就是它 |
 

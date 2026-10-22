@@ -15,7 +15,7 @@
 
 ```
 cargo build --release                        # 产物 target/release/cuter.exe（约 8 MB）
-cargo test --workspace                       # 287 个单测，全部无头
+cargo test --workspace                       # 348 个单测，全部无头
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ci\check.ps1 -WithProbes
 ```
 

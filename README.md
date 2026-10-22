@@ -259,8 +259,8 @@ crates/
 ## 测试
 
 ```shell
-cargo test --workspace        # 无头单元测试（239 个：几何、位图、配置、快捷键解析、吸附、栅格化、滚动拼接、贴图布局、单实例命名与转发、日志滚动、配置原子写入）
-cargo test --workspace -- --ignored   # 真机测试：真的截屏 / 真的枚举窗口（需要交互式桌面）
+cargo test --workspace        # 无头单元测试（348 个：几何、位图、配置、快捷键解析、吸附、栅格化、滚动拼接、贴图布局、单实例命名与转发、日志滚动、配置原子写入）
+cargo test --workspace -- --ignored   # 另有 11 个真机测试（真截屏 / 枚举窗口 / 真 HTTPS / 弹系统对话框），需要交互式桌面
 cargo clippy --workspace --all-targets -- -D warnings   # 零警告是硬指标
 
 # 端到端：真的截一张图并写盘
