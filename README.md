@@ -8,6 +8,9 @@
 └──────────────────────────────────────────────────────────────┘
 ```
 
+**[下载最新版](https://github.com/ChuGe1206/Cuter/releases/latest)** —— Windows 10/11 x64，免安装 zip 或安装包。
+暂无代码签名，首次运行会有 SmartScreen「未知发布者」提示。
+
 ## 界面
 
 界面按 `docs/design/DESIGN-SYSTEM.md`（现代深色工具风）实现：一个强调色、4px 网格、
